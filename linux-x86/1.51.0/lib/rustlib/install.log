@@ -1,0 +1,122 @@
+$ umask 022 && mkdir -p "/aosp/luxufan/thead/out/lib/rustlib"
+$ echo "3" > "/aosp/luxufan/thead/out/lib/rustlib/rust-installer-version"
+install: creating uninstall script at /aosp/luxufan/thead/out/lib/rustlib/uninstall.sh
+$ cp /aosp/luxufan/thead/toolchain/rustc/build/tmp/tarball/rustc/x86_64-unknown-linux-gnu/rustc-1.51.0-dev-x86_64-unknown-linux-gnu/install.sh /aosp/luxufan/thead/out/lib/rustlib/uninstall.sh
+install: installing component 'rustc'
+$ echo "rustc" >> "/aosp/luxufan/thead/out/lib/rustlib/components"
+$ umask 022 && mkdir -p "/aosp/luxufan/thead/out/lib"
+install: copying file /aosp/luxufan/thead/out/lib/libtest-3df1ba8b0c06678c.so
+$ cp /aosp/luxufan/thead/toolchain/rustc/build/tmp/tarball/rustc/x86_64-unknown-linux-gnu/rustc-1.51.0-dev-x86_64-unknown-linux-gnu/rustc/lib/libtest-3df1ba8b0c06678c.so /aosp/luxufan/thead/out/lib/libtest-3df1ba8b0c06678c.so
+$ chmod 644 /aosp/luxufan/thead/out/lib/libtest-3df1ba8b0c06678c.so
+$ echo "file:/aosp/luxufan/thead/out/lib/libtest-3df1ba8b0c06678c.so" >> "/aosp/luxufan/thead/out/lib/rustlib/manifest-rustc"
+$ umask 022 && mkdir -p "/aosp/luxufan/thead/out/lib"
+install: copying file /aosp/luxufan/thead/out/lib/librustc_driver-f245299482a2e9cf.so
+$ cp /aosp/luxufan/thead/toolchain/rustc/build/tmp/tarball/rustc/x86_64-unknown-linux-gnu/rustc-1.51.0-dev-x86_64-unknown-linux-gnu/rustc/lib/librustc_driver-f245299482a2e9cf.so /aosp/luxufan/thead/out/lib/librustc_driver-f245299482a2e9cf.so
+$ chmod 644 /aosp/luxufan/thead/out/lib/librustc_driver-f245299482a2e9cf.so
+$ echo "file:/aosp/luxufan/thead/out/lib/librustc_driver-f245299482a2e9cf.so" >> "/aosp/luxufan/thead/out/lib/rustlib/manifest-rustc"
+$ umask 022 && mkdir -p "/aosp/luxufan/thead/out/lib/rustlib/x86_64-unknown-linux-gnu/bin"
+install: copying file /aosp/luxufan/thead/out/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-llvm-dwp
+$ cp /aosp/luxufan/thead/toolchain/rustc/build/tmp/tarball/rustc/x86_64-unknown-linux-gnu/rustc-1.51.0-dev-x86_64-unknown-linux-gnu/rustc/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-llvm-dwp /aosp/luxufan/thead/out/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-llvm-dwp
+$ chmod 755 /aosp/luxufan/thead/out/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-llvm-dwp
+$ echo "file:/aosp/luxufan/thead/out/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-llvm-dwp" >> "/aosp/luxufan/thead/out/lib/rustlib/manifest-rustc"
+$ umask 022 && mkdir -p "/aosp/luxufan/thead/out/lib/rustlib/etc"
+install: copying file /aosp/luxufan/thead/out/lib/rustlib/etc/rust_types.py
+$ cp /aosp/luxufan/thead/toolchain/rustc/build/tmp/tarball/rustc/x86_64-unknown-linux-gnu/rustc-1.51.0-dev-x86_64-unknown-linux-gnu/rustc/lib/rustlib/etc/rust_types.py /aosp/luxufan/thead/out/lib/rustlib/etc/rust_types.py
+$ chmod 644 /aosp/luxufan/thead/out/lib/rustlib/etc/rust_types.py
+$ echo "file:/aosp/luxufan/thead/out/lib/rustlib/etc/rust_types.py" >> "/aosp/luxufan/thead/out/lib/rustlib/manifest-rustc"
+$ umask 022 && mkdir -p "/aosp/luxufan/thead/out/lib/rustlib/etc"
+install: copying file /aosp/luxufan/thead/out/lib/rustlib/etc/lldb_commands
+$ cp /aosp/luxufan/thead/toolchain/rustc/build/tmp/tarball/rustc/x86_64-unknown-linux-gnu/rustc-1.51.0-dev-x86_64-unknown-linux-gnu/rustc/lib/rustlib/etc/lldb_commands /aosp/luxufan/thead/out/lib/rustlib/etc/lldb_commands
+$ chmod 644 /aosp/luxufan/thead/out/lib/rustlib/etc/lldb_commands
+$ echo "file:/aosp/luxufan/thead/out/lib/rustlib/etc/lldb_commands" >> "/aosp/luxufan/thead/out/lib/rustlib/manifest-rustc"
+$ umask 022 && mkdir -p "/aosp/luxufan/thead/out/lib/rustlib/etc"
+install: copying file /aosp/luxufan/thead/out/lib/rustlib/etc/gdb_load_rust_pretty_printers.py
+$ cp /aosp/luxufan/thead/toolchain/rustc/build/tmp/tarball/rustc/x86_64-unknown-linux-gnu/rustc-1.51.0-dev-x86_64-unknown-linux-gnu/rustc/lib/rustlib/etc/gdb_load_rust_pretty_printers.py /aosp/luxufan/thead/out/lib/rustlib/etc/gdb_load_rust_pretty_printers.py
+$ chmod 644 /aosp/luxufan/thead/out/lib/rustlib/etc/gdb_load_rust_pretty_printers.py
+$ echo "file:/aosp/luxufan/thead/out/lib/rustlib/etc/gdb_load_rust_pretty_printers.py" >> "/aosp/luxufan/thead/out/lib/rustlib/manifest-rustc"
+$ umask 022 && mkdir -p "/aosp/luxufan/thead/out/lib/rustlib/etc"
+install: copying file /aosp/luxufan/thead/out/lib/rustlib/etc/gdb_providers.py
+$ cp /aosp/luxufan/thead/toolchain/rustc/build/tmp/tarball/rustc/x86_64-unknown-linux-gnu/rustc-1.51.0-dev-x86_64-unknown-linux-gnu/rustc/lib/rustlib/etc/gdb_providers.py /aosp/luxufan/thead/out/lib/rustlib/etc/gdb_providers.py
+$ chmod 644 /aosp/luxufan/thead/out/lib/rustlib/etc/gdb_providers.py
+$ echo "file:/aosp/luxufan/thead/out/lib/rustlib/etc/gdb_providers.py" >> "/aosp/luxufan/thead/out/lib/rustlib/manifest-rustc"
+$ umask 022 && mkdir -p "/aosp/luxufan/thead/out/lib/rustlib/etc"
+install: copying file /aosp/luxufan/thead/out/lib/rustlib/etc/lldb_lookup.py
+$ cp /aosp/luxufan/thead/toolchain/rustc/build/tmp/tarball/rustc/x86_64-unknown-linux-gnu/rustc-1.51.0-dev-x86_64-unknown-linux-gnu/rustc/lib/rustlib/etc/lldb_lookup.py /aosp/luxufan/thead/out/lib/rustlib/etc/lldb_lookup.py
+$ chmod 644 /aosp/luxufan/thead/out/lib/rustlib/etc/lldb_lookup.py
+$ echo "file:/aosp/luxufan/thead/out/lib/rustlib/etc/lldb_lookup.py" >> "/aosp/luxufan/thead/out/lib/rustlib/manifest-rustc"
+$ umask 022 && mkdir -p "/aosp/luxufan/thead/out/lib/rustlib/etc"
+install: copying file /aosp/luxufan/thead/out/lib/rustlib/etc/lldb_providers.py
+$ cp /aosp/luxufan/thead/toolchain/rustc/build/tmp/tarball/rustc/x86_64-unknown-linux-gnu/rustc-1.51.0-dev-x86_64-unknown-linux-gnu/rustc/lib/rustlib/etc/lldb_providers.py /aosp/luxufan/thead/out/lib/rustlib/etc/lldb_providers.py
+$ chmod 644 /aosp/luxufan/thead/out/lib/rustlib/etc/lldb_providers.py
+$ echo "file:/aosp/luxufan/thead/out/lib/rustlib/etc/lldb_providers.py" >> "/aosp/luxufan/thead/out/lib/rustlib/manifest-rustc"
+$ umask 022 && mkdir -p "/aosp/luxufan/thead/out/lib/rustlib/etc"
+install: copying file /aosp/luxufan/thead/out/lib/rustlib/etc/gdb_lookup.py
+$ cp /aosp/luxufan/thead/toolchain/rustc/build/tmp/tarball/rustc/x86_64-unknown-linux-gnu/rustc-1.51.0-dev-x86_64-unknown-linux-gnu/rustc/lib/rustlib/etc/gdb_lookup.py /aosp/luxufan/thead/out/lib/rustlib/etc/gdb_lookup.py
+$ chmod 644 /aosp/luxufan/thead/out/lib/rustlib/etc/gdb_lookup.py
+$ echo "file:/aosp/luxufan/thead/out/lib/rustlib/etc/gdb_lookup.py" >> "/aosp/luxufan/thead/out/lib/rustlib/manifest-rustc"
+$ umask 022 && mkdir -p "/aosp/luxufan/thead/out/lib"
+install: copying file /aosp/luxufan/thead/out/lib/libstd-94e3c598474e889d.so
+$ cp /aosp/luxufan/thead/toolchain/rustc/build/tmp/tarball/rustc/x86_64-unknown-linux-gnu/rustc-1.51.0-dev-x86_64-unknown-linux-gnu/rustc/lib/libstd-94e3c598474e889d.so /aosp/luxufan/thead/out/lib/libstd-94e3c598474e889d.so
+$ chmod 644 /aosp/luxufan/thead/out/lib/libstd-94e3c598474e889d.so
+$ echo "file:/aosp/luxufan/thead/out/lib/libstd-94e3c598474e889d.so" >> "/aosp/luxufan/thead/out/lib/rustlib/manifest-rustc"
+$ umask 022 && mkdir -p "/aosp/luxufan/thead/out/share/doc/rust"
+install: copying file /aosp/luxufan/thead/out/share/doc/rust/LICENSE-APACHE
+install: backing up existing file at /aosp/luxufan/thead/out/share/doc/rust/LICENSE-APACHE
+$ mv -f /aosp/luxufan/thead/out/share/doc/rust/LICENSE-APACHE /aosp/luxufan/thead/out/share/doc/rust/LICENSE-APACHE.old
+$ cp /aosp/luxufan/thead/toolchain/rustc/build/tmp/tarball/rustc/x86_64-unknown-linux-gnu/rustc-1.51.0-dev-x86_64-unknown-linux-gnu/rustc/share/doc/rust/LICENSE-APACHE /aosp/luxufan/thead/out/share/doc/rust/LICENSE-APACHE
+$ chmod 644 /aosp/luxufan/thead/out/share/doc/rust/LICENSE-APACHE
+$ echo "file:/aosp/luxufan/thead/out/share/doc/rust/LICENSE-APACHE" >> "/aosp/luxufan/thead/out/lib/rustlib/manifest-rustc"
+$ umask 022 && mkdir -p "/aosp/luxufan/thead/out/share/doc/rust"
+install: copying file /aosp/luxufan/thead/out/share/doc/rust/COPYRIGHT
+$ cp /aosp/luxufan/thead/toolchain/rustc/build/tmp/tarball/rustc/x86_64-unknown-linux-gnu/rustc-1.51.0-dev-x86_64-unknown-linux-gnu/rustc/share/doc/rust/COPYRIGHT /aosp/luxufan/thead/out/share/doc/rust/COPYRIGHT
+$ chmod 644 /aosp/luxufan/thead/out/share/doc/rust/COPYRIGHT
+$ echo "file:/aosp/luxufan/thead/out/share/doc/rust/COPYRIGHT" >> "/aosp/luxufan/thead/out/lib/rustlib/manifest-rustc"
+$ umask 022 && mkdir -p "/aosp/luxufan/thead/out/share/doc/rust"
+install: copying file /aosp/luxufan/thead/out/share/doc/rust/LICENSE-MIT
+install: backing up existing file at /aosp/luxufan/thead/out/share/doc/rust/LICENSE-MIT
+$ mv -f /aosp/luxufan/thead/out/share/doc/rust/LICENSE-MIT /aosp/luxufan/thead/out/share/doc/rust/LICENSE-MIT.old
+$ cp /aosp/luxufan/thead/toolchain/rustc/build/tmp/tarball/rustc/x86_64-unknown-linux-gnu/rustc-1.51.0-dev-x86_64-unknown-linux-gnu/rustc/share/doc/rust/LICENSE-MIT /aosp/luxufan/thead/out/share/doc/rust/LICENSE-MIT
+$ chmod 644 /aosp/luxufan/thead/out/share/doc/rust/LICENSE-MIT
+$ echo "file:/aosp/luxufan/thead/out/share/doc/rust/LICENSE-MIT" >> "/aosp/luxufan/thead/out/lib/rustlib/manifest-rustc"
+$ umask 022 && mkdir -p "/aosp/luxufan/thead/out/share/doc/rust"
+install: copying file /aosp/luxufan/thead/out/share/doc/rust/README.md
+install: backing up existing file at /aosp/luxufan/thead/out/share/doc/rust/README.md
+$ mv -f /aosp/luxufan/thead/out/share/doc/rust/README.md /aosp/luxufan/thead/out/share/doc/rust/README.md.old
+$ cp /aosp/luxufan/thead/toolchain/rustc/build/tmp/tarball/rustc/x86_64-unknown-linux-gnu/rustc-1.51.0-dev-x86_64-unknown-linux-gnu/rustc/share/doc/rust/README.md /aosp/luxufan/thead/out/share/doc/rust/README.md
+$ chmod 644 /aosp/luxufan/thead/out/share/doc/rust/README.md
+$ echo "file:/aosp/luxufan/thead/out/share/doc/rust/README.md" >> "/aosp/luxufan/thead/out/lib/rustlib/manifest-rustc"
+$ umask 022 && mkdir -p "/aosp/luxufan/thead/out/share/man/man1"
+install: copying file /aosp/luxufan/thead/out/share/man/man1/rustdoc.1
+$ cp /aosp/luxufan/thead/toolchain/rustc/build/tmp/tarball/rustc/x86_64-unknown-linux-gnu/rustc-1.51.0-dev-x86_64-unknown-linux-gnu/rustc/share/man/man1/rustdoc.1 /aosp/luxufan/thead/out/share/man/man1/rustdoc.1
+$ chmod 644 /aosp/luxufan/thead/out/share/man/man1/rustdoc.1
+$ echo "file:/aosp/luxufan/thead/out/share/man/man1/rustdoc.1" >> "/aosp/luxufan/thead/out/lib/rustlib/manifest-rustc"
+$ umask 022 && mkdir -p "/aosp/luxufan/thead/out/share/man/man1"
+install: copying file /aosp/luxufan/thead/out/share/man/man1/rustc.1
+$ cp /aosp/luxufan/thead/toolchain/rustc/build/tmp/tarball/rustc/x86_64-unknown-linux-gnu/rustc-1.51.0-dev-x86_64-unknown-linux-gnu/rustc/share/man/man1/rustc.1 /aosp/luxufan/thead/out/share/man/man1/rustc.1
+$ chmod 644 /aosp/luxufan/thead/out/share/man/man1/rustc.1
+$ echo "file:/aosp/luxufan/thead/out/share/man/man1/rustc.1" >> "/aosp/luxufan/thead/out/lib/rustlib/manifest-rustc"
+$ umask 022 && mkdir -p "/aosp/luxufan/thead/out/bin"
+install: copying file /aosp/luxufan/thead/out/bin/rust-gdbgui
+$ cp /aosp/luxufan/thead/toolchain/rustc/build/tmp/tarball/rustc/x86_64-unknown-linux-gnu/rustc-1.51.0-dev-x86_64-unknown-linux-gnu/rustc/bin/rust-gdbgui /aosp/luxufan/thead/out/bin/rust-gdbgui
+$ chmod 755 /aosp/luxufan/thead/out/bin/rust-gdbgui
+$ echo "file:/aosp/luxufan/thead/out/bin/rust-gdbgui" >> "/aosp/luxufan/thead/out/lib/rustlib/manifest-rustc"
+$ umask 022 && mkdir -p "/aosp/luxufan/thead/out/bin"
+install: copying file /aosp/luxufan/thead/out/bin/rustc
+$ cp /aosp/luxufan/thead/toolchain/rustc/build/tmp/tarball/rustc/x86_64-unknown-linux-gnu/rustc-1.51.0-dev-x86_64-unknown-linux-gnu/rustc/bin/rustc /aosp/luxufan/thead/out/bin/rustc
+$ chmod 755 /aosp/luxufan/thead/out/bin/rustc
+$ echo "file:/aosp/luxufan/thead/out/bin/rustc" >> "/aosp/luxufan/thead/out/lib/rustlib/manifest-rustc"
+$ umask 022 && mkdir -p "/aosp/luxufan/thead/out/bin"
+install: copying file /aosp/luxufan/thead/out/bin/rust-gdb
+$ cp /aosp/luxufan/thead/toolchain/rustc/build/tmp/tarball/rustc/x86_64-unknown-linux-gnu/rustc-1.51.0-dev-x86_64-unknown-linux-gnu/rustc/bin/rust-gdb /aosp/luxufan/thead/out/bin/rust-gdb
+$ chmod 755 /aosp/luxufan/thead/out/bin/rust-gdb
+$ echo "file:/aosp/luxufan/thead/out/bin/rust-gdb" >> "/aosp/luxufan/thead/out/lib/rustlib/manifest-rustc"
+$ umask 022 && mkdir -p "/aosp/luxufan/thead/out/bin"
+install: copying file /aosp/luxufan/thead/out/bin/rustdoc
+$ cp /aosp/luxufan/thead/toolchain/rustc/build/tmp/tarball/rustc/x86_64-unknown-linux-gnu/rustc-1.51.0-dev-x86_64-unknown-linux-gnu/rustc/bin/rustdoc /aosp/luxufan/thead/out/bin/rustdoc
+$ chmod 755 /aosp/luxufan/thead/out/bin/rustdoc
+$ echo "file:/aosp/luxufan/thead/out/bin/rustdoc" >> "/aosp/luxufan/thead/out/lib/rustlib/manifest-rustc"
+$ umask 022 && mkdir -p "/aosp/luxufan/thead/out/bin"
+install: copying file /aosp/luxufan/thead/out/bin/rust-lldb
+$ cp /aosp/luxufan/thead/toolchain/rustc/build/tmp/tarball/rustc/x86_64-unknown-linux-gnu/rustc-1.51.0-dev-x86_64-unknown-linux-gnu/rustc/bin/rust-lldb /aosp/luxufan/thead/out/bin/rust-lldb
+$ chmod 755 /aosp/luxufan/thead/out/bin/rust-lldb
+$ echo "file:/aosp/luxufan/thead/out/bin/rust-lldb" >> "/aosp/luxufan/thead/out/lib/rustlib/manifest-rustc"
